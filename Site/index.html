@@ -3,11 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Hello World</title>
 </head>
-<body>
-    <h1>Hello World,</h1>
-    
+<body id="top">
+    <header>This is the header that that provides information about the page, company logo, tagline,
+        we can also include navigation of the page.
+        <nav id="section0">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Products</a>
+            <a href="#">Contacts us</a>
+        </nav>
+    </header>
+    <section> <!--article should be inside of section element-->
+        Section 1
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+    </section>
+    <section>
+        section 2
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+    </section>
+    <aside>
+        Aside: some information that relates to the main topic: e.g related posts
+    </aside>
+
+    <h1>Unordered list</h1>
+    <div>
+        <ul>
+            <li class="milks">Milk</li>
+            <li>Vegetables</li>
+            <li>Cookies</li>
+            <li>Fruits
+                <ul>
+                    <li>Bananas</li>
+                    <li>Apples</li>
+                    <li>Mangoes</li>
+                    <li>Coconut</li>
+                </ul>
+            </li>
+            <li>Chocolates</li>
+        </ul>
+    </div>
+
+    <h1 id="order-list">Ordered list</h1>
+    <div>
+        Cookie baking procedure:
+        <ol id="list" class="stuff">
+            <li>Buy floor</li>
+            <li>add butter and cheese into floor</li>
+            <li class="time">keep it for 2 hours</li>
+            <li>Prepare egg mixture:
+                <ol class="extra">
+                    <li>take three eggs</li>
+                    <li>add sugar, soda into eggs</li>
+                    <li>keep it for 15 minutes</li>
+                </ol>
+            </li>
+            <li>mix eggs and floor and bake for 1 hour</li>
+        </ol>
+    </div>
+    <!--hyperlinks in html-->
+    <section>
+        <a href="example.html" title="same directory link">Linking to file in a same directory</a>
+    </section>
+
+    <h1>External link</h1>
+    <section>
+        <p>This is the link to my facebook page
+            <a href="http://www.facebook.com" title="external web link" target="_blank">Facebook page link</a>
+        </p>
+    </section>
+
+    <h1>These are the different sections of this page</h1>
+    <ul class="sections">
+        <li><a href="#section1">section 1</a></li> 
+        <li><a href="#section2">section 2</a></li>
+        <li><a href="#section3">section 3</a></li>
+        <li><a href="#section0">section 0</a></li>
+    </ul>
+
+    <section id="section1">
+        <h3>(#section1) Section 1</h3>
+        <p>thaljdlkfjalkjfjaijfioajkdjfalkjfkjaiofklajskfdljaklsjdfioasoidfjlaksjfkljasfialjdklj
+            aljkdjlkajklfjalkjfdlkajkldjflkajsfdkljalkfjkaljsfdlkjalskjfdlkajfklajskldfjalsjfklas
+            alkjdlkjflaksjfklajskfjalksjflkasjfkljasklfjlajfdklajkfljalksjflajsfkljasklfjlkajfj
+            ajdljalkjdfklajkjfalkjfklajsdklfjalkjflajfkljdkfljalkjfkaljflkajfjsklfjkljfklsadjfklsjf
+            aljdljakljfaljfklajskldfjaljflajf;lajdflkjasd;lfjalsfjda;lkdj;alkjdaljdflkasjflkajalkj
+        </p>
+    </section>
+    <section id="section2">
+        <h3>(#section2) Section 2</h3>
+        <p>
+            a;ljdljfalkjflkajjfa;ljdljfal;ksdjflkajsdf;lkjalsjdflkajfdklajlskdjflkasjfdlajsdfljakl
+            aljdslk;fjalkjdflkajsdflkjalksjdflkajdlkf;ajl;ksjdflkajdfl;kajsd;lfjalksjfdklajdsfkljsdf
+            a;ljdlkfjalksjflkajflkajkldfjl;kasjdflkjasdlkfjlkasdjflkjdflkjaskfljaksldjfklsjdfkjsdkfj
+            al;jdklfjaklsjfdkaljfkljakldfjalksjdfklajsdflkjaskljfklasjdfkljsldjfalkjfklajsdlkfjklsjf
+            akldjlkajldjflakjdflkjasdlkfjalksdjflkajsdfkljasldkfjlaksdjfkljfkljsdklfjklasjfdlkajfkajdf
+        </p>
+    </section>
+    <section id="section3">
+        <h3>(#section3) Section 3</h3>
+        <p>
+            a;ljdlfjaljflajsdlkfjalsjdflkajslfdjaljsdfkljalksjflkajsdkfljalksdjflasjdfkljaskldfjlkajf
+            ajdlkfjalksjflkajsdklfjaklsjdfklajsdklfjlksdjfklsdjfkljasdjfklajsfdlkjaklsjfd;laksjfd;lkjalsjdflkajfdklajlskdjflkasjfdlajsdfljaklakljdlk;fjalkjdflkajsdflkjalksjdflkajdlkfakj
+            a;ldjkfljaksjfkasjdfjalksjdfklasjdkfjksldjfkljsdkfljklasdjfkljsdfkljdskljfklsjdfkljsfkljd
+            ajdklfjaklsjfklajsklfjlkasjfklajsdlkfjklsdjfklajsfkljsdklfjlksjfklasjflkjsflkjdskljfkldsjkf
+        </p>
+    </section>
+    <h2 class="shortcut"><a href="#top">Back to top</a></h2>
+
+    <section>
+        <div>div 1</div>
+        <div>div 2</div>
+        <div>div 3</div>
+        <div>div 4</div>
+        <div>div 5</div>
+        <div>div 6</div>
+        <div>div 7</div>
+        <div>div 8</div>
+    </section>
+
+
+    <footer class="fotter">
+        JHU: &copy Copywrite 2015
+    </footer>
+
+     <script src="dom.js"></script>
 </body>
 </html>
 
